@@ -11,6 +11,7 @@ body {
     max-width: 600px;
     height: 100vh;
     margin: auto;
+    background: linear-gradient(#fccefd, #c1feff)
 }
 .geral {
     display: flex;
@@ -42,6 +43,13 @@ body {
 }
 .remember {
     margin: 5px;
-    font-size: .9rem;
-    
+    font-size: .9rem; 
+}
+@media (max-width: 440px) {
+    .geral {
+        flex-direction: column;
+    }
+    .container {
+        width: 100%;
+    }
 }
