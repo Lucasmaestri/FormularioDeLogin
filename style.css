@@ -14,7 +14,7 @@ body {
 }
 .geral {
     display: flex;
-    width: 500px;
+    max-width: 500px;
     background-color: #f2f2f2;
     box-shadow: 2px 2px 10px #707070;
 
@@ -33,5 +33,15 @@ body {
 .description {
     flex: 1;
     padding: 10px;
+    text-align: center;
+    margin: 15px;
 }
-
+.description .btn {
+    margin-top: 20px;
+    padding: 5px 90px;
+}
+.remember {
+    margin: 5px;
+    font-size: .9rem;
+    
+}
